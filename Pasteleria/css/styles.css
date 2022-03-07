@@ -1,0 +1,133 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+body{
+    background-color: white;
+    /*background-image: url('../img/cake_redvelvet.jpg');*/
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+}
+section.principal{
+    background-image: url("/img/cake_redvelvet.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*background-color: aqua;*/
+    padding: 20px;
+
+}
+
+div.seccion1{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h2.subtitulo{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/*div.titulo{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}*/
+
+
+
+div.sabores{
+    width: 20%;
+}
+div.relleno{
+    width: 20%;
+    
+}
+div.decoraciones{
+    width: 20%;   
+}
+
+
+
+/*seccion PEdido*/
+section.seccion_pedido{
+    background-color: blueviolet;
+    padding: 20px;
+
+}
+div.pedido{
+    margin-top: 50px;
+    display: flex;
+    background-color: beige;
+
+}
+/*section.seccion_pedido{
+    margin-top: 50px;
+    display: flex;
+    width: 20%;
+    background-color: transparent;
+}*/
+
+.inptext{
+    margin-left: 10px;
+}
+dt{
+    margin: 10px;
+    display:flex;
+}
+
+
+
+
+
+/*footer  contacto*/
+
+div.contacto{
+    display: flex;
+    /*flex-direction: column;*/
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+}
+div.contacto1{
+    display: flex;
+    align-items: center;
+}
+
+div.contacto2{
+    display: flex;
+    align-items: center;
+}
+
+img.iconosContacto{
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+footer{
+    background-color: black;
+    
+}
+footer > h2{
+    padding-top: 20px;
+    color: aliceblue;
+    text-align: center;
+}
+.parrafoContact{
+    color:aliceblue;
+}

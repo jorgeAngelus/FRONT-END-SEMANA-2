@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/styles.css" type="text/css" rel="stylesheet">
+    <link href="./css/menu.css" type="text/css" rel="stylesheet">
+    <title>Pastereria</title>
+</head>
+<body >
+    <nav id="nav-main" class="nav-main">
+        <ul class='nav_menu_logo'>
+            <li class="menu_logo">
+                <img src="./img/pasteleria_v2.jpeg" class="icono" alt="icono de imagen"/>
+            </li>
+        </ul>
+        <ul class='menu_links'>
+            <li>
+                <a href="#" class="menu">Sabores</a>
+            </li>
+            <li>
+                <a href="#" class="menu">Pedido</a>
+            </li>
+            <li>
+                <a href="#" class="menu">Contacto</a>
+            </li>            
+        </ul>        
+    </nav>
+    <section id="principal" class="principal">
+        <h1 id="titulo" class="titulo">Contactanos</h1>
+        <p>Elige 1 o 2 de nuestras opciones de sabores para el pan del pastel, 1 Relleno  y 1 tipo de Decoracion</p> 
+            <div id="seccion1" class="seccion1">     
+                <div id="sabores" class="sabores">
+                    <h2 id="subtitulo" class="subtitulo">Sabores</h2>
+                    <form action="">
+                        <dl>
+                            <dt>
+                                <input type="checkbox" id="chocolate" name="chocolate" value="Chocolate">
+                                <label for="chocolate">Chocolate</label>
+                            </dt>
+                            <dt>
+                                <input type="checkbox" id="vainilla" name="vainilla" value="Vainilla">
+                                <label for="vainilla">Vainilla</label>
+                            </dt>
+                            <dt>
+                                <input type="checkbox" id="tresleches" name="tresleches" value="tresleches">
+                                <label for="tresleches">Tres Leches</label>
+                            </dt>
+                            <dt>
+                                <input type="checkbox" id="fresa" name="fresa" value="fresa">
+                                <label for="fresa">Fresa</label>
+                            </dt>
+                            <dt>
+                                <input type="checkbox" id="limon" name="limon" value="limon">
+                                <label for="limon">Limon</label>
+                            </dt>
+                            <dt>
+                                <input type="checkbox" id="redvelvet" name="redvelvet" value="redvelvet">
+                                <label for="redvelvet">Red Velvet</label>
+                            </dt>                                
+                            <dt>
+                                <input type="checkbox" id="platano" name="platano" value="platano">
+                                <label for="platano">Platano</label>
+                            </dt>
+                        </dl>
+                    </form>
+                </div>
+                <div id="relleno" class="relleno">
+                    <h2 id="subtitulo" class="subtitulo">Relleno</h2>
+                    <form action="">
+                        <dl>
+                            <dt>Mermelada</dt>
+                            <dd>
+                                <input type="radio" id="mfresa" name="mfresa" value="mfresa">
+                                <label for="mfresa">Fresa</label>
+                            </dd>
+                            <dd>
+                                <input type="radio" id="mframbuesa" name="mframbuesa" value="mframbuesa">
+                                <label for="mframbuesa">Frambuesa</label>
+                            </dd>
+                            <dd>
+                                <input type="radio" id="mzarzamora" name="mzarzamora" value="mzarzamora">
+                                <label for="mzarzamora">Zarzamora</label>
+                            </dd>
+                            <dt>Ganache</dt>
+                            <dd>
+                                <input type="radio" id="gChocObs" name="gChocObs" value="gChocObs">
+                                <label for="gChocObs">Chocolate Obscuro</label>
+                            </dd>
+                            <dd>
+                                <input type="radio" id="gChocLec" name="gChocLec" value="gChocLec">
+                                <label for="gChocLec">Chocolate con Leche</label>
+                            </dd>
+                            <dd>
+                                <input type="radio" id="gChocBla" name="gChocBla" value="gChocBla">
+                                <label for="gChocBla">Chocolate Blanco</label>
+                            </dd>
+                            <dt>Crema Batida</dt>
+                            <dd>
+                                <input type="radio" id="cVainilla" name="cVainilla" value="cVainilla">
+                                <label for="cVainilla">Vainilla</label>
+                            </dd>
+                            <dd>
+                                <input type="radio" id="cCafe" name="cCafe" value="cCafe">
+                                <label for="cCafe">Café</label>
+                            </dd>
+                        </dl>
+                    </form>
+                </div>                
+                <div id="decoraciones" class="decoraciones">
+                    <h2 id="subtitulo" class="subtitulo">Decoraciones</h2>
+                    <form action="">
+                        <dl>
+                            <dt>
+                                <input type="radio" id="dCaramel" name="dCaramel" value="dCaramel">
+                                <label for="dCaramel">Caramelo Suave</label>
+                            </dt>
+                            <dt>
+                                <input type="radio" id="dFrutas" name="dFrutas" value="dFrutas">
+                                <label for="dFrutas">Frutas</label>
+                            </dt>
+                            <dt>
+                                <input type="radio" id="dFondant" name="dFondant" value="dFondant">
+                                <label for="dFondant">Fondant</label>
+                            </dt>
+                            <dt>
+                                <input type="radio" id="dChantilly" name="dChantilly" value="dChantilly">
+                                <label for="dChantilly">Chantilly</label>
+                            </dt>
+                            <dt>
+                                <input type="radio" id="dMerengue" name="dMerengue" value="dMerengue">
+                                <label for="dMerengue">Merengue</label>
+                            </dt>
+                        </dl>
+                    </form>        
+                </div>
+            </div>
+    </section>    
+    
+    <section id="seccion_pedido" class="seccion_pedido"> 
+        <h2 id="subtitulo" class="subtitulo">Pedido</h2>
+        <p>Realiza tu pedido llenando los datos:</p>   
+        <div id="pedido" class="pedido">
+            <form action="#" id="formpedido" class="formpedido">
+                <dl>
+                    <dt>
+                        <label for="">Nombre: </label>
+                        <input type="text" name="Nombre" class="inptext" placeholder="Nombre ...">
+                    </dt>
+                    <dt>
+                        <label for="">Apellidos: </label>
+                        <input type="text" name="Apellido" class="inptext" placeholder="Apellidos...">
+                    </dt>
+                    <dt>
+                        <label for="">Direccion: </label>
+                        <input type="text" name="Direccion" class="inptext" placeholder="Calle y numero...">
+                    </dt>
+                    <dt>
+                        <label for="">Telefono: </label>
+                        <input type="tel" name="Telefono" class="inptext" placeholder="1234567890 ">
+                    </dt>
+                    <dt>
+                        <label for="">Observaciones</label>
+                        <input type="text" name="Observaciones" class="inptext" placeholder="Mensaje en pastel...">
+                    </dt>
+                    <dt>
+                        <input type="submit" value="Enviar">
+                    </dt>
+                </dl>                
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <h2 class="tituloContacto">Contacto</h2>
+        <div id="contacto" class="contacto">
+            <div id="contacto1" class="contacto1">
+                <img src="./img/pasteleria.png" class="iconosContacto"/>
+                <p class="parrafoContact">Nevado 113 Col. Portales, Benito Juárez, CDMX.<br> 
+                    Horarios de atención a clientes en sucursales:<br>
+                    Lunes a Sábado:  8 a.m. – 8 p.m.<br>
+                    Domingos: 9 a.m. – 8 p.m.</p>
+            </div>
+            <div id="contacto2" class="contacto2">
+                <img src="./img/pasteleria.png" class="iconosContacto"/>
+                <p class="parrafoContact">Ventas y cotizaciones:<br>
+                    Lunes a Domingo: 8 a.m. – 5 p.m.<br>
+                    (55)-5532-2550 ext 139</p>
+            </div>
+        </div>
+    </footer>    
+</body>
+</html>
